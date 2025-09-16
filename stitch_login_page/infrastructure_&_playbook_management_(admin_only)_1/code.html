@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #1173d4;
+      }
+    </style>
+</head>
+<body class="bg-gray-900 text-white" style='font-family: Inter, "Noto Sans", sans-serif;'>
+<div class="flex flex-col min-h-screen">
+<header class="bg-gray-900 shadow-md">
+<div class="container mx-auto px-6 py-4">
+<h1 class="text-3xl font-bold text-white tracking-wider">TechM ALive</h1>
+</div>
+</header>
+<div class="flex flex-1">
+<aside class="w-64 bg-gray-900 p-6 flex flex-col justify-between">
+<div>
+<div class="mb-8">
+<h1 class="text-xl font-bold">Virtualization Manager</h1>
+</div>
+<nav class="flex flex-col gap-2">
+<a class="flex items-center gap-3 px-3 py-2 text-gray-400 hover:bg-gray-800 hover:text-white rounded-md" href="#">
+<span class="material-symbols-outlined"> dashboard </span>
+<span class="text-sm font-medium">Dashboard</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-gray-400 hover:bg-gray-800 hover:text-white rounded-md" href="#">
+<span class="material-symbols-outlined"> dns </span>
+<span class="text-sm font-medium">Virtual Machines</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-gray-400 hover:bg-gray-800 hover:text-white rounded-md" href="#">
+<span class="material-symbols-outlined"> description </span>
+<span class="text-sm font-medium">Templates</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-gray-400 hover:bg-gray-800 hover:text-white rounded-md" href="#">
+<span class="material-symbols-outlined"> storage </span>
+<span class="text-sm font-medium">Infrastructure</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-white bg-gray-800 rounded-md" href="#">
+<span class="material-symbols-outlined"> settings </span>
+<span class="text-sm font-medium">Settings</span>
+</a>
+</nav>
+</div>
+<div>
+<a class="flex items-center gap-3 px-3 py-2 text-gray-400 hover:bg-gray-800 hover:text-white rounded-md" href="#">
+<span class="material-symbols-outlined"> help_outline </span>
+<span class="text-sm font-medium">Help and documentation</span>
+</a>
+</div>
+</aside>
+<main class="flex-1 p-8">
+<div class="max-w-4xl mx-auto">
+<header class="mb-8">
+<h1 class="text-4xl font-bold tracking-tight">Settings</h1>
+<p class="text-gray-400 mt-2">Manage your infrastructure and configurations</p>
+</header>
+<div class="border-b border-gray-700 mb-8">
+<nav class="-mb-px flex gap-8">
+<a class="py-4 px-1 border-b-2 border-transparent text-gray-400 hover:text-white hover:border-white text-sm font-medium" href="#"> General </a>
+<a class="py-4 px-1 border-b-2 border-[var(--primary-color)] text-[var(--primary-color)] text-sm font-medium" href="#"> Infrastructure </a>
+<a class="py-4 px-1 border-b-2 border-transparent text-gray-400 hover:text-white hover:border-white text-sm font-medium" href="#"> Ansible Playbooks </a>
+</nav>
+</div>
+<div>
+<section class="mb-12">
+<h2 class="text-2xl font-bold tracking-tight mb-6">Infrastructure Lists</h2>
+<div class="space-y-4">
+<div class="bg-gray-800 rounded-lg p-4 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="bg-gray-700 p-3 rounded-lg">
+<span class="material-symbols-outlined text-gray-300"> dns </span>
+</div>
+<div>
+<h3 class="font-medium">ESXi Hosts</h3>
+<p class="text-sm text-gray-400">Manage ESXi hosts</p>
+</div>
+</div>
+<button class="bg-[var(--primary-color)] hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-md text-sm">Manage</button>
+</div>
+<div class="bg-gray-800 rounded-lg p-4 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="bg-gray-700 p-3 rounded-lg">
+<span class="material-symbols-outlined text-gray-300"> cloud_queue </span>
+</div>
+<div>
+<h3 class="font-medium">OpenShift Clusters</h3>
+<p class="text-sm text-gray-400">Manage OpenShift clusters</p>
+</div>
+</div>
+<button class="bg-[var(--primary-color)] hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-md text-sm">Manage</button>
+</div>
+</div>
+</section>
+<section>
+<h2 class="text-2xl font-bold tracking-tight mb-6">Ansible Playbooks</h2>
+<div class="bg-gray-800 rounded-lg p-4 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="bg-gray-700 p-3 rounded-lg">
+<span class="material-symbols-outlined text-gray-300"> article </span>
+</div>
+<div>
+<h3 class="font-medium">Playbooks</h3>
+<p class="text-sm text-gray-400">Manage Ansible playbooks</p>
+</div>
+</div>
+<button class="bg-[var(--primary-color)] hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-md text-sm">Manage</button>
+</div>
+</section>
+</div>
+</div>
+</main>
+</div>
+</div>
+
+</body></html>

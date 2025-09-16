@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B600%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style type="text/tailwindcss">
+      :root {
+        --primary-color: #1173d4;
+        --secondary-bg: #1e293b;
+        --sidebar-bg: #0f172a;
+        --text-primary: #f8fafc;
+        --text-secondary: #94a3b8;
+        --border-color: #334155;
+      }
+    </style>
+</head>
+<body class="bg-slate-900" style='font-family: Inter, "Noto Sans", sans-serif;'>
+<div class="relative flex h-auto min-h-screen w-full flex-col bg-[var(--sidebar-bg)] dark group/design-root overflow-x-hidden">
+<header class="flex h-16 w-full items-center justify-between bg-slate-900/70 px-8 border-b border-[var(--border-color)]">
+<h1 class="text-2xl font-bold text-[var(--text-primary)]">TechM ALive</h1>
+<div class="flex items-center gap-4">
+<button class="relative rounded-full p-2 text-[var(--text-secondary)] hover:text-[var(--text-primary)]">
+<span class="material-symbols-outlined">notifications</span>
+<span class="absolute top-2 right-2 block h-2 w-2 rounded-full bg-red-500 ring-2 ring-slate-900"></span>
+</button>
+<div class="flex items-center gap-3">
+<img alt="User avatar" class="h-8 w-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbxNsCioGwdDIvmy2WRAz_LCgoz-VfiHv5ehs8vXck74MJaWjQ14bwiQih7bu8f0V7IhVccKdHKTHJ_Ww7vJMJyHdVIXc7oh0T2GbxdZ_CZDlYmjjXBL4z4ZEHiGipJpR7W9XYkBEyCkwU5ZengklaAfw3TWo_YL8oXSF52cwIj31cKbUf8TXmEP_H0GCD_Gdn-VD3kKsY40vs1toXqNrFZs1b01TVzjQGOevGZPXW_yNihG700vcR4Sm3iGGCud7229CB6nCtlig"/>
+<div class="flex flex-col">
+<p class="text-sm font-medium text-[var(--text-primary)]">Admin User</p>
+<p class="text-xs text-[var(--text-secondary)]">admin@techm.com</p>
+</div>
+</div>
+</div>
+</header>
+<div class="flex h-full grow flex-col">
+<div class="flex flex-1">
+<div class="flex h-full w-64 flex-col justify-between bg-slate-900/70 p-4">
+<div class="flex flex-col gap-6">
+<div class="flex items-center gap-2">
+<svg class="h-8 w-8 text-[var(--primary-color)]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+<h1 class="text-[var(--text-primary)] text-xl font-bold">VirtuManage</h1>
+</div>
+<div class="flex flex-col gap-2">
+<a class="flex items-center gap-3 rounded-md bg-[var(--secondary-bg)] px-3 py-2.5 transition-colors duration-200" href="#">
+<span class="material-symbols-outlined text-[var(--primary-color)]">dashboard</span>
+<p class="text-[var(--text-primary)] text-sm font-medium">Dashboard</p>
+</a>
+<a class="flex items-center gap-3 rounded-md px-3 py-2.5 hover:bg-[var(--secondary-bg)] transition-colors duration-200" href="#">
+<span class="material-symbols-outlined text-[var(--text-secondary)]">dvr</span>
+<p class="text-[var(--text-secondary)] text-sm font-medium">Virtual Machines</p>
+</a>
+<a class="flex items-center gap-3 rounded-md px-3 py-2.5 hover:bg-[var(--secondary-bg)] transition-colors duration-200" href="#">
+<span class="material-symbols-outlined text-[var(--text-secondary)]">grid_view</span>
+<p class="text-[var(--text-secondary)] text-sm font-medium">Templates</p>
+</a>
+<a class="flex items-center gap-3 rounded-md px-3 py-2.5 hover:bg-[var(--secondary-bg)] transition-colors duration-200" href="#">
+<span class="material-symbols-outlined text-[var(--text-secondary)]">storage</span>
+<p class="text-[var(--text-secondary)] text-sm font-medium">Storage</p>
+</a>
+<a class="flex items-center gap-3 rounded-md px-3 py-2.5 hover:bg-[var(--secondary-bg)] transition-colors duration-200" href="#">
+<span class="material-symbols-outlined text-[var(--text-secondary)]">lan</span>
+<p class="text-[var(--text-secondary)] text-sm font-medium">Networking</p>
+</a>
+<a class="flex items-center gap-3 rounded-md px-3 py-2.5 hover:bg-[var(--secondary-bg)] transition-colors duration-200" href="#">
+<span class="material-symbols-outlined text-[var(--text-secondary)]">group</span>
+<p class="text-[var(--text-secondary)] text-sm font-medium">User Management</p>
+</a>
+</div>
+</div>
+</div>
+<main class="flex-1 bg-[var(--sidebar-bg)] p-8">
+<div class="flex justify-between items-center mb-8">
+<div class="flex flex-col gap-1">
+<h2 class="text-[var(--text-primary)] text-3xl font-bold">User Management</h2>
+<p class="text-[var(--text-secondary)] text-base">Manage user accounts, roles, and permissions.</p>
+</div>
+<button class="flex items-center gap-2 rounded-md bg-[var(--primary-color)] px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">
+<span class="material-symbols-outlined">add</span>
+                Add User
+              </button>
+</div>
+<div class="mb-6">
+<div class="relative">
+<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+<span class="material-symbols-outlined text-[var(--text-secondary)]">search</span>
+</div>
+<input class="block w-full rounded-md border-0 bg-[var(--secondary-bg)] py-3 pl-10 pr-4 text-[var(--text-primary)] placeholder:text-[var(--text-secondary)] focus:ring-2 focus:ring-inset focus:ring-[var(--primary-color)] sm:text-sm" placeholder="Search users by name, email or role..." type="search"/>
+</div>
+</div>
+<div class="overflow-x-auto rounded-lg border border-[var(--border-color)] bg-slate-900/70">
+<table class="min-w-full divide-y divide-[var(--border-color)]">
+<thead class="bg-[var(--secondary-bg)]/50">
+<tr>
+<th class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-[var(--text-primary)] sm:pl-6" scope="col">Username</th>
+<th class="px-3 py-3.5 text-left text-sm font-semibold text-[var(--text-primary)]" scope="col">Email</th>
+<th class="px-3 py-3.5 text-left text-sm font-semibold text-[var(--text-primary)]" scope="col">Role</th>
+<th class="px-3 py-3.5 text-left text-sm font-semibold text-[var(--text-primary)]" scope="col">Status</th>
+<th class="relative py-3.5 pl-3 pr-4 sm:pr-6 text-right text-sm font-semibold text-[var(--text-primary)]" scope="col">Actions</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-[var(--border-color)]">
+<tr>
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-[var(--text-primary)] sm:pl-6">admin_user</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-[var(--text-secondary)]">admin@example.com</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-[var(--text-secondary)]">
+<span class="inline-flex items-center rounded-md bg-purple-400/10 px-2 py-1 text-xs font-medium text-purple-400 ring-1 ring-inset ring-purple-400/20">Administrator</span>
+</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-[var(--text-secondary)]">
+<span class="inline-flex items-center rounded-md bg-green-500/10 px-2 py-1 text-xs font-medium text-green-400 ring-1 ring-inset ring-green-500/20">Active</span>
+</td>
+<td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
+<a class="text-[var(--primary-color)] hover:text-blue-400" href="#">Edit</a>
+<span class="text-[var(--border-color)] mx-2">|</span>
+<a class="text-red-500 hover:text-red-400" href="#">Delete</a>
+</td>
+</tr>
+<tr>
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-[var(--text-primary)] sm:pl-6">general_user1</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-[var(--text-secondary)]">user1@example.com</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-[var(--text-secondary)]">
+<span class="inline-flex items-center rounded-md bg-sky-400/10 px-2 py-1 text-xs font-medium text-sky-400 ring-1 ring-inset ring-sky-400/20">General User</span>
+</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-[var(--text-secondary)]">
+<span class="inline-flex items-center rounded-md bg-green-500/10 px-2 py-1 text-xs font-medium text-green-400 ring-1 ring-inset ring-green-500/20">Active</span>
+</td>
+<td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
+<a class="text-[var(--primary-color)] hover:text-blue-400" href="#">Edit</a>
+<span class="text-[var(--border-color)] mx-2">|</span>
+<a class="text-red-500 hover:text-red-400" href="#">Delete</a>
+</td>
+</tr>
+<tr>
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-[var(--text-primary)] sm:pl-6">general_user2</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-[var(--text-secondary)]">user2@example.com</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-[var(--text-secondary)]">
+<span class="inline-flex items-center rounded-md bg-sky-400/10 px-2 py-1 text-xs font-medium text-sky-400 ring-1 ring-inset ring-sky-400/20">General User</span>
+</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-[var(--text-secondary)]">
+<span class="inline-flex items-center rounded-md bg-slate-400/10 px-2 py-1 text-xs font-medium text-slate-400 ring-1 ring-inset ring-slate-400/20">Inactive</span>
+</td>
+<td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
+<a class="text-[var(--primary-color)] hover:text-blue-400" href="#">Edit</a>
+<span class="text-[var(--border-color)] mx-2">|</span>
+<a class="text-red-500 hover:text-red-400" href="#">Delete</a>
+</td>
+</tr>
+<tr>
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-[var(--text-primary)] sm:pl-6">test_user</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-[var(--text-secondary)]">test@example.com</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-[var(--text-secondary)]">
+<span class="inline-flex items-center rounded-md bg-sky-400/10 px-2 py-1 text-xs font-medium text-sky-400 ring-1 ring-inset ring-sky-400/20">General User</span>
+</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-[var(--text-secondary)]">
+<span class="inline-flex items-center rounded-md bg-green-500/10 px-2 py-1 text-xs font-medium text-green-400 ring-1 ring-inset ring-green-500/20">Active</span>
+</td>
+<td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
+<a class="text-[var(--primary-color)] hover:text-blue-400" href="#">Edit</a>
+<span class="text-[var(--border-color)] mx-2">|</span>
+<a class="text-red-500 hover:text-red-400" href="#">Delete</a>
+</td>
+</tr>
+<tr>
+<td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-[var(--text-primary)] sm:pl-6">support_user</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-[var(--text-secondary)]">support@example.com</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-[var(--text-secondary)]">
+<span class="inline-flex items-center rounded-md bg-yellow-400/10 px-2 py-1 text-xs font-medium text-yellow-500 ring-1 ring-inset ring-yellow-400/20">Support</span>
+</td>
+<td class="whitespace-nowrap px-3 py-4 text-sm text-[var(--text-secondary)]">
+<span class="inline-flex items-center rounded-md bg-green-500/10 px-2 py-1 text-xs font-medium text-green-400 ring-1 ring-inset ring-green-500/20">Active</span>
+</td>
+<td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
+<a class="text-[var(--primary-color)] hover:text-blue-400" href="#">Edit</a>
+<span class="text-[var(--border-color)] mx-2">|</span>
+<a class="text-red-500 hover:text-red-400" href="#">Delete</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</main>
+</div>
+</div>
+</div>
+
+</body></html>
